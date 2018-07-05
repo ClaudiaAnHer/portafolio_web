@@ -1,0 +1,83 @@
+body:before {
+  width: 100%;
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: #051421 url("../img/bg.jpg") top center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@font-face
+{
+   font-family: futura bk;
+   src: url("/fonts/futurabook.ttf"),
+}
+
+.logo {
+	margin-top: 90px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+img.cah {
+    width: 70%;
+    height: auto;
+}
+
+.icono {
+  margin: 30px;
+  text-align: center;
+  position: relative;
+}
+
+.icono img:hover { 
+    opacity: 0.1;
+}
+
+.icono p {
+  text-align: center;
+  color: #ffffff;
+  font-size: 45px;
+  margin-top: -180px;
+  padding: 20px;
+}
+
+#web, #branding, #ilustracion, #afiches, #editorial, #contacto {
+  display: none;
+}
+
+h1 {
+    font-size: 10pt;
+    letter-spacing: 0.1em;
+    margin: 15px;
+    color: #ffffff;
+    font-family: futura bk;
+    text-align: center;
+}
+
+h2 {
+	font-size: 2vw;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 15px;
+    color: #4A99C6;
+    font-family: 'futura book';
+    text-align: center;
+}
+
+footer {
+  width: 100%;
+  height: 10vh;
+  background-color: #004366;
+  opacity: 0.5;
+  padding-top: 2vh;
+
+}
